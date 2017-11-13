@@ -9,7 +9,7 @@ Install: `npm i repl-models`
 ```javascript
 const repl = require('repl').start()
 const models = require('../models')
-require('repl-history')(repl, models)
+require('repl-models')(repl, models)
 ```
 
 ## Use
